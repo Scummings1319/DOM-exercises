@@ -1,0 +1,39 @@
+body {
+  background-color: bisque;
+  margin: 0px;
+}
+.divs {
+  width: 40px;
+  height: 5px;
+  background-color: rgb(245, 24, 79);
+  margin: 6px 0;
+}
+.alphabet {
+  font-size: 20px;
+  display: flex;
+}
+#nav {
+  color: rgb(245, 24, 79);
+  padding: 16px;
+  font-size: 16px;
+  border-bottom: 5px solid;
+  cursor: pointer;
+}
+.box {
+  background-color: whitesmoke;
+  font-size: 25px;
+  width: 100px;
+  display: none;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid grey;
+}
+.shown {
+  display: flex;
+}
+.numbs {
+  font-size: 25px;
+}
+.hidden {
+  display: none;
+}

@@ -1,0 +1,33 @@
+img {
+  width: 100px;
+}
+.howmany {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.first {
+  padding: 5px;
+}
+.second {
+  padding: 5px;
+}
+.third {
+  margin-bottom: 5px;
+}
+.fourth {
+  width: 90px;
+  margin-bottom: 5px;
+}
+.fifth {
+  width: 70px;
+}
+.whichcoin {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

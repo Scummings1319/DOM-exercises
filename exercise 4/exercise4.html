@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercise4.css">
+    <title>Exercise 4</title>
+</head>
+<body>
+    <form action="">
+        <div class="howmany">
+           <label for="quantity" class="first">How many?</label>
+           <input type="number" min="0"   class="fifth" name="quantity">
+       </div>
+       <div class="whichcoin">
+           <label for="coins" class="second">Which coin?</label>
+            <select class="fourth" list="coins" name="coins">
+                <option value="quarter"> Quarter</option>
+                <option value="dime">Dime</option>
+                <option value="nickle">Nickle</option>
+                <option value="penny">Penny</option>
+            </select>
+            <input type="submit" value="Make money!" class="third">
+       </div> 
+    </form>
+    <div id="visuals">
+        
+    </div>
+    <script src="exercise4.js"></script>
+</body>
+</html>
